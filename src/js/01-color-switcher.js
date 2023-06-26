@@ -13,6 +13,8 @@ function changeScreenColor() {
     getRandomHexColor();
 }
 
+var timerId;
+
 startButton.addEventListener('click', () => {
   startButton.setAttribute('disabled', true);
   stopButton.removeAttribute('disabled');
